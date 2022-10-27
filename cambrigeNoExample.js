@@ -10,7 +10,7 @@ class DuyLongCambridge {
         let locale = await api.locale();
         if (locale.indexOf('CN') != -1) return '剑桥英汉双解(简体)';
         if (locale.indexOf('TW') != -1) return '劍橋英漢雙解(簡體)';
-        return 'DuyLong1';
+        return 'DuyLong_noExample';
     }
 
     setOptions(options) {
